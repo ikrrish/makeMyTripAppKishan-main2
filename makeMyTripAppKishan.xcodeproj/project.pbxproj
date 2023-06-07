@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D31233992A04332B00705BCC /* host.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31233982A04332B00705BCC /* host.swift */; };
+		D312339B2A0434D300705BCC /* tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D312339A2A0434D300705BCC /* tabbar.swift */; };
+		D334B5AC29F073F50087F9B0 /* TripMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = D334B5AB29F073F50087F9B0 /* TripMoney.swift */; };
+		D334B5AE29F0742F0087F9B0 /* CollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D334B5AD29F0742F0087F9B0 /* CollectionViewCell3.swift */; };
+		D341438E2A134614005324A2 /* setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D341438D2A134614005324A2 /* setup.swift */; };
+		D34713372A02D82600C78854 /* CollectionViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34713362A02D82600C78854 /* CollectionViewCell4.swift */; };
+		D34713392A02DF6900C78854 /* CollectionViewCell5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34713382A02DF6900C78854 /* CollectionViewCell5.swift */; };
+		D371FD3929E7D68000F65583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FD3829E7D68000F65583 /* AppDelegate.swift */; };
+		D371FD3B29E7D68000F65583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FD3A29E7D68000F65583 /* SceneDelegate.swift */; };
+		D371FD3D29E7D68000F65583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FD3C29E7D68000F65583 /* ViewController.swift */; };
+		D371FD4029E7D68000F65583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D371FD3E29E7D68000F65583 /* Main.storyboard */; };
+		D371FD4229E7D68200F65583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D371FD4129E7D68200F65583 /* Assets.xcassets */; };
+		D371FD4529E7D68200F65583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D371FD4329E7D68200F65583 /* LaunchScreen.storyboard */; };
+		D37646E729E920530024A7B9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37646E629E920530024A7B9 /* ViewController2.swift */; };
+		D37646E929E929660024A7B9 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37646E829E929660024A7B9 /* item.swift */; };
+		D385E40E2A1699ED00A5726E /* viewofslidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D385E40D2A1699ED00A5726E /* viewofslidebar.swift */; };
+		D38F0D9429F3003A00EF6E0F /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F0D9329F3003A00EF6E0F /* Error.swift */; };
+		D38F0D9629F3033F00EF6E0F /* Trips.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F0D9529F3033F00EF6E0F /* Trips.swift */; };
+		D3AADA6229EDC2AC00D3522E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */; };
+		D3AADA6429EDD23400D3522E /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */; };
+		D3AB158A29FA55660083DC9B /* wheretogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB158929FA55660083DC9B /* wheretogo.swift */; };
+		D3CF24F92A1EE383004914A0 /* tripbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CF24F82A1EE383004914A0 /* tripbook.swift */; };
+		D3ED1C142A2716A5008DCF0D /* destinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1C132A2716A5008DCF0D /* destinations.swift */; };
+		D3ED1C162A271720008DCF0D /* cvForDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1C152A271720008DCF0D /* cvForDestinations.swift */; };
+		D3F8C2F32A0EBEA60091D0EF /* holidays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8C2F22A0EBEA60091D0EF /* holidays.swift */; };
+		D3F8C2F52A0EC1360091D0EF /* hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8C2F42A0EC1360091D0EF /* hotels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D31233982A04332B00705BCC /* host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = host.swift; sourceTree = "<group>"; };
+		D312339A2A0434D300705BCC /* tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbar.swift; sourceTree = "<group>"; };
+		D334B5AB29F073F50087F9B0 /* TripMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMoney.swift; sourceTree = "<group>"; };
+		D334B5AD29F0742F0087F9B0 /* CollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3.swift; sourceTree = "<group>"; };
+		D341438D2A134614005324A2 /* setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setup.swift; sourceTree = "<group>"; };
+		D34713362A02D82600C78854 /* CollectionViewCell4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell4.swift; sourceTree = "<group>"; };
+		D34713382A02DF6900C78854 /* CollectionViewCell5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell5.swift; sourceTree = "<group>"; };
+		D371FD3529E7D68000F65583 /* makeMyTripAppKishan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makeMyTripAppKishan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D371FD3829E7D68000F65583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D371FD3A29E7D68000F65583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D371FD3C29E7D68000F65583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D371FD3F29E7D68000F65583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D371FD4129E7D68200F65583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D371FD4429E7D68200F65583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D371FD4629E7D68200F65583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37646E629E920530024A7B9 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		D37646E829E929660024A7B9 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
+		D385E40D2A1699ED00A5726E /* viewofslidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewofslidebar.swift; sourceTree = "<group>"; };
+		D38F0D9329F3003A00EF6E0F /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		D38F0D9529F3033F00EF6E0F /* Trips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trips.swift; sourceTree = "<group>"; };
+		D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
+		D3AB158929FA55660083DC9B /* wheretogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheretogo.swift; sourceTree = "<group>"; };
+		D3CF24F82A1EE383004914A0 /* tripbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripbook.swift; sourceTree = "<group>"; };
+		D3ED1C132A2716A5008DCF0D /* destinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destinations.swift; sourceTree = "<group>"; };
+		D3ED1C152A271720008DCF0D /* cvForDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cvForDestinations.swift; sourceTree = "<group>"; };
+		D3F8C2F22A0EBEA60091D0EF /* holidays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holidays.swift; sourceTree = "<group>"; };
+		D3F8C2F42A0EC1360091D0EF /* hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotels.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D371FD3229E7D68000F65583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D371FD2C29E7D68000F65583 = {
+			isa = PBXGroup;
+			children = (
+				D371FD3729E7D68000F65583 /* makeMyTripAppKishan */,
+				D371FD3629E7D68000F65583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D371FD3629E7D68000F65583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D371FD3529E7D68000F65583 /* makeMyTripAppKishan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D371FD3729E7D68000F65583 /* makeMyTripAppKishan */ = {
+			isa = PBXGroup;
+			children = (
+				D371FD3829E7D68000F65583 /* AppDelegate.swift */,
+				D371FD3A29E7D68000F65583 /* SceneDelegate.swift */,
+				D371FD3C29E7D68000F65583 /* ViewController.swift */,
+				D371FD3E29E7D68000F65583 /* Main.storyboard */,
+				D3ED1C152A271720008DCF0D /* cvForDestinations.swift */,
+				D3ED1C132A2716A5008DCF0D /* destinations.swift */,
+				D3CF24F82A1EE383004914A0 /* tripbook.swift */,
+				D385E40D2A1699ED00A5726E /* viewofslidebar.swift */,
+				D341438D2A134614005324A2 /* setup.swift */,
+				D3F8C2F42A0EC1360091D0EF /* hotels.swift */,
+				D3F8C2F22A0EBEA60091D0EF /* holidays.swift */,
+				D312339A2A0434D300705BCC /* tabbar.swift */,
+				D31233982A04332B00705BCC /* host.swift */,
+				D3AB158929FA55660083DC9B /* wheretogo.swift */,
+				D34713382A02DF6900C78854 /* CollectionViewCell5.swift */,
+				D38F0D9529F3033F00EF6E0F /* Trips.swift */,
+				D38F0D9329F3003A00EF6E0F /* Error.swift */,
+				D334B5AD29F0742F0087F9B0 /* CollectionViewCell3.swift */,
+				D334B5AB29F073F50087F9B0 /* TripMoney.swift */,
+				D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */,
+				D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */,
+				D34713362A02D82600C78854 /* CollectionViewCell4.swift */,
+				D37646E829E929660024A7B9 /* item.swift */,
+				D37646E629E920530024A7B9 /* ViewController2.swift */,
+				D371FD4129E7D68200F65583 /* Assets.xcassets */,
+				D371FD4329E7D68200F65583 /* LaunchScreen.storyboard */,
+				D371FD4629E7D68200F65583 /* Info.plist */,
+			);
+			path = makeMyTripAppKishan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D371FD3429E7D68000F65583 /* makeMyTripAppKishan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D371FD4929E7D68200F65583 /* Build configuration list for PBXNativeTarget "makeMyTripAppKishan" */;
+			buildPhases = (
+				D371FD3129E7D68000F65583 /* Sources */,
+				D371FD3229E7D68000F65583 /* Frameworks */,
+				D371FD3329E7D68000F65583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = makeMyTripAppKishan;
+			productName = makeMyTripAppKishan;
+			productReference = D371FD3529E7D68000F65583 /* makeMyTripAppKishan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D371FD2D29E7D68000F65583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D371FD3429E7D68000F65583 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = D371FD3029E7D68000F65583 /* Build configuration list for PBXProject "makeMyTripAppKishan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D371FD2C29E7D68000F65583;
+			productRefGroup = D371FD3629E7D68000F65583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D371FD3429E7D68000F65583 /* makeMyTripAppKishan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D371FD3329E7D68000F65583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D371FD4529E7D68200F65583 /* LaunchScreen.storyboard in Resources */,
+				D371FD4229E7D68200F65583 /* Assets.xcassets in Resources */,
+				D371FD4029E7D68000F65583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D371FD3129E7D68000F65583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3ED1C142A2716A5008DCF0D /* destinations.swift in Sources */,
+				D34713392A02DF6900C78854 /* CollectionViewCell5.swift in Sources */,
+				D37646E929E929660024A7B9 /* item.swift in Sources */,
+				D334B5AC29F073F50087F9B0 /* TripMoney.swift in Sources */,
+				D341438E2A134614005324A2 /* setup.swift in Sources */,
+				D312339B2A0434D300705BCC /* tabbar.swift in Sources */,
+				D3F8C2F32A0EBEA60091D0EF /* holidays.swift in Sources */,
+				D3CF24F92A1EE383004914A0 /* tripbook.swift in Sources */,
+				D31233992A04332B00705BCC /* host.swift in Sources */,
+				D371FD3D29E7D68000F65583 /* ViewController.swift in Sources */,
+				D3ED1C162A271720008DCF0D /* cvForDestinations.swift in Sources */,
+				D3AADA6229EDC2AC00D3522E /* CollectionViewCell.swift in Sources */,
+				D38F0D9629F3033F00EF6E0F /* Trips.swift in Sources */,
+				D334B5AE29F0742F0087F9B0 /* CollectionViewCell3.swift in Sources */,
+				D3AADA6429EDD23400D3522E /* CollectionViewCell2.swift in Sources */,
+				D37646E729E920530024A7B9 /* ViewController2.swift in Sources */,
+				D385E40E2A1699ED00A5726E /* viewofslidebar.swift in Sources */,
+				D371FD3929E7D68000F65583 /* AppDelegate.swift in Sources */,
+				D38F0D9429F3003A00EF6E0F /* Error.swift in Sources */,
+				D3AB158A29FA55660083DC9B /* wheretogo.swift in Sources */,
+				D371FD3B29E7D68000F65583 /* SceneDelegate.swift in Sources */,
+				D3F8C2F52A0EC1360091D0EF /* hotels.swift in Sources */,
+				D34713372A02D82600C78854 /* CollectionViewCell4.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D371FD3E29E7D68000F65583 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D371FD3F29E7D68000F65583 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D371FD4329E7D68200F65583 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D371FD4429E7D68200F65583 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D371FD4729E7D68200F65583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D371FD4829E7D68200F65583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D371FD4A29E7D68200F65583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = makeMyTripAppKishan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OrgName.makeMyTripAppKishan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D371FD4B29E7D68200F65583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = makeMyTripAppKishan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OrgName.makeMyTripAppKishan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D371FD3029E7D68000F65583 /* Build configuration list for PBXProject "makeMyTripAppKishan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D371FD4729E7D68200F65583 /* Debug */,
+				D371FD4829E7D68200F65583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D371FD4929E7D68200F65583 /* Build configuration list for PBXNativeTarget "makeMyTripAppKishan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D371FD4A29E7D68200F65583 /* Debug */,
+				D371FD4B29E7D68200F65583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D371FD2D29E7D68000F65583 /* Project object */;
+}
