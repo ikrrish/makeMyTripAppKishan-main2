@@ -29,7 +29,7 @@ class ViewController2: UIViewController {
     }
    
     @IBAction func signinButtonAction(_ sender: Any) {
-        let navigate = storyboard?.instantiateViewController(withIdentifier: "tabbar") as! tabbar
+        let navigate = storyboard?.instantiateViewController(withIdentifier: "otpPage") as! otpPage
         navigationController?.pushViewController(navigate, animated: true)
     }
 }

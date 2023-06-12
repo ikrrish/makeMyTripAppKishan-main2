@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2ECDB8D2A36E941007C5F8B /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = C2ECDB8C2A36E941007C5F8B /* DPOTPView */; };
+		C2ECDB8F2A36EA3F007C5F8B /* otpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECDB8E2A36EA3F007C5F8B /* otpPage.swift */; };
 		D31233992A04332B00705BCC /* host.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31233982A04332B00705BCC /* host.swift */; };
 		D312339B2A0434D300705BCC /* tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D312339A2A0434D300705BCC /* tabbar.swift */; };
 		D334B5AC29F073F50087F9B0 /* TripMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = D334B5AB29F073F50087F9B0 /* TripMoney.swift */; };
@@ -36,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2ECDB8E2A36EA3F007C5F8B /* otpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otpPage.swift; sourceTree = "<group>"; };
 		D31233982A04332B00705BCC /* host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = host.swift; sourceTree = "<group>"; };
 		D312339A2A0434D300705BCC /* tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbar.swift; sourceTree = "<group>"; };
 		D334B5AB29F073F50087F9B0 /* TripMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMoney.swift; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2ECDB8D2A36E941007C5F8B /* DPOTPView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +104,7 @@
 				D371FD3A29E7D68000F65583 /* SceneDelegate.swift */,
 				D371FD3C29E7D68000F65583 /* ViewController.swift */,
 				D371FD3E29E7D68000F65583 /* Main.storyboard */,
+				C2ECDB8E2A36EA3F007C5F8B /* otpPage.swift */,
 				D3ED1C152A271720008DCF0D /* cvForDestinations.swift */,
 				D3ED1C132A2716A5008DCF0D /* destinations.swift */,
 				D3CF24F82A1EE383004914A0 /* tripbook.swift */,
@@ -143,6 +148,9 @@
 			dependencies = (
 			);
 			name = makeMyTripAppKishan;
+			packageProductDependencies = (
+				C2ECDB8C2A36E941007C5F8B /* DPOTPView */,
+			);
 			productName = makeMyTripAppKishan;
 			productReference = D371FD3529E7D68000F65583 /* makeMyTripAppKishan.app */;
 			productType = "com.apple.product-type.application";
@@ -171,6 +179,9 @@
 				Base,
 			);
 			mainGroup = D371FD2C29E7D68000F65583;
+			packageReferences = (
+				C2ECDB8B2A36E941007C5F8B /* XCRemoteSwiftPackageReference "DPOTPView" */,
+			);
 			productRefGroup = D371FD3629E7D68000F65583 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -206,6 +217,7 @@
 				D312339B2A0434D300705BCC /* tabbar.swift in Sources */,
 				D3F8C2F32A0EBEA60091D0EF /* holidays.swift in Sources */,
 				D3CF24F92A1EE383004914A0 /* tripbook.swift in Sources */,
+				C2ECDB8F2A36EA3F007C5F8B /* otpPage.swift in Sources */,
 				D31233992A04332B00705BCC /* host.swift in Sources */,
 				D371FD3D29E7D68000F65583 /* ViewController.swift in Sources */,
 				D3ED1C162A271720008DCF0D /* cvForDestinations.swift in Sources */,
@@ -438,6 +450,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2ECDB8B2A36E941007C5F8B /* XCRemoteSwiftPackageReference "DPOTPView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Datt1994/DPOTPView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2ECDB8C2A36E941007C5F8B /* DPOTPView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2ECDB8B2A36E941007C5F8B /* XCRemoteSwiftPackageReference "DPOTPView" */;
+			productName = DPOTPView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D371FD2D29E7D68000F65583 /* Project object */;
 }
