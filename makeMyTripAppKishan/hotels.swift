@@ -21,7 +21,7 @@ class hotels: UIViewController {
     
     @IBAction func bookAction(_ sender: Any) {
         let back = storyboard?.instantiateViewController(withIdentifier: "tripbook") as! tripbook
-        navigationController?.popToRootViewController(animated: true)
+        navigationController?.pushViewController(back, animated: true)
     }
     
 }

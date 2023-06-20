@@ -11,6 +11,8 @@ class setup: UIViewController, UIImagePickerControllerDelegate&UINavigationContr
 
     @IBOutlet weak var profilePhoto: UIImageView!
     
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var surnameTextField: UITextField!
     @IBOutlet weak var goButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,5 +52,8 @@ class setup: UIViewController, UIImagePickerControllerDelegate&UINavigationContr
     @IBAction func goButtonAction(_ sender: Any) {
         let navigate = storyboard?.instantiateViewController(withIdentifier: "tabbar") as! tabbar
         navigationController?.pushViewController(navigate, animated: true)
+    }
+    func saveInfo(){
+        
     }
 }

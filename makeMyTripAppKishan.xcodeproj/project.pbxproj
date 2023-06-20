@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C23A07A62A417684001CBFF3 /* CollectionViewCell6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A07A52A417684001CBFF3 /* CollectionViewCell6.swift */; };
+		C2E2A1122A40250B00D7915D /* payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2A1112A40250B00D7915D /* payment.swift */; };
 		C2ECDB8D2A36E941007C5F8B /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = C2ECDB8C2A36E941007C5F8B /* DPOTPView */; };
 		C2ECDB8F2A36EA3F007C5F8B /* otpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECDB8E2A36EA3F007C5F8B /* otpPage.swift */; };
 		D31233992A04332B00705BCC /* host.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31233982A04332B00705BCC /* host.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C23A07A52A417684001CBFF3 /* CollectionViewCell6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell6.swift; sourceTree = "<group>"; };
+		C2E2A1112A40250B00D7915D /* payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payment.swift; sourceTree = "<group>"; };
 		C2ECDB8E2A36EA3F007C5F8B /* otpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otpPage.swift; sourceTree = "<group>"; };
 		D31233982A04332B00705BCC /* host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = host.swift; sourceTree = "<group>"; };
 		D312339A2A0434D300705BCC /* tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbar.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 				D371FD3A29E7D68000F65583 /* SceneDelegate.swift */,
 				D371FD3C29E7D68000F65583 /* ViewController.swift */,
 				D371FD3E29E7D68000F65583 /* Main.storyboard */,
+				C2E2A1112A40250B00D7915D /* payment.swift */,
 				C2ECDB8E2A36EA3F007C5F8B /* otpPage.swift */,
 				D3ED1C152A271720008DCF0D /* cvForDestinations.swift */,
 				D3ED1C132A2716A5008DCF0D /* destinations.swift */,
@@ -128,6 +133,7 @@
 				D371FD4129E7D68200F65583 /* Assets.xcassets */,
 				D371FD4329E7D68200F65583 /* LaunchScreen.storyboard */,
 				D371FD4629E7D68200F65583 /* Info.plist */,
+				C23A07A52A417684001CBFF3 /* CollectionViewCell6.swift */,
 			);
 			path = makeMyTripAppKishan;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3ED1C142A2716A5008DCF0D /* destinations.swift in Sources */,
+				C23A07A62A417684001CBFF3 /* CollectionViewCell6.swift in Sources */,
 				D34713392A02DF6900C78854 /* CollectionViewCell5.swift in Sources */,
 				D37646E929E929660024A7B9 /* item.swift in Sources */,
 				D334B5AC29F073F50087F9B0 /* TripMoney.swift in Sources */,
@@ -224,6 +231,7 @@
 				D3AADA6229EDC2AC00D3522E /* CollectionViewCell.swift in Sources */,
 				D38F0D9629F3033F00EF6E0F /* Trips.swift in Sources */,
 				D334B5AE29F0742F0087F9B0 /* CollectionViewCell3.swift in Sources */,
+				C2E2A1122A40250B00D7915D /* payment.swift in Sources */,
 				D3AADA6429EDD23400D3522E /* CollectionViewCell2.swift in Sources */,
 				D37646E729E920530024A7B9 /* ViewController2.swift in Sources */,
 				D385E40E2A1699ED00A5726E /* viewofslidebar.swift in Sources */,

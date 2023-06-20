@@ -8,13 +8,14 @@
 import UIKit
 
 class ViewController2: UIViewController {
-
+    
+    @IBOutlet weak var noTextField: UITextField!
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var continueButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
-       
+        
     }
     func setup(){
         img.layer.cornerRadius = 20
@@ -22,13 +23,24 @@ class ViewController2: UIViewController {
         continueButton.layer.cornerRadius = 20
         continueButton.layer.masksToBounds = true
     }
+    
     @IBAction func continueButtonAction(_ sender: Any) {
-        
-        let navigate = storyboard?.instantiateViewController(withIdentifier: "setup") as! setup
-        navigationController?.pushViewController(navigate, animated: true)
+        if noTextField.text!.count == 10{
+            let navigate = storyboard?.instantiateViewController(withIdentifier: "otpPage") as! otpPage
+            navigationController?.pushViewController(navigate, animated: true)
+            
+        }
+        else{
+            alert(message: "Enter Valid Number")
+
+        }
+        func alert(message: String){
+            let alert = UIAlertController(title: "Error", message: "\(message)", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default))
+            present(alert, animated: true)
+        }
     }
-   
-    @IBAction func signinButtonAction(_ sender: Any) {
+    @IBAction func signInButton(_ sender: Any) {
         let navigate = storyboard?.instantiateViewController(withIdentifier: "otpPage") as! otpPage
         navigationController?.pushViewController(navigate, animated: true)
     }

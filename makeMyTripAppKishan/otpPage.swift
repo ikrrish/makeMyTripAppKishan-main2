@@ -15,8 +15,12 @@ class otpPage: UIViewController {
         
     }
     @IBAction func ugklygijgghk(_ sender: Any) {
-        let back = storyboard?.instantiateViewController(withIdentifier: "tabbar") as! tabbar
-        navigationController?.pushViewController(back, animated: true)
+        let navigate = storyboard?.instantiateViewController(withIdentifier: "setup") as! setup
+        navigationController?.pushViewController(navigate, animated: true)
+    }
+    @IBAction func back(_ sender: Any) {
+        let back = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        navigationController?.popToRootViewController(animated: true)
     }
     
 
