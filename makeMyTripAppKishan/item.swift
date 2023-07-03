@@ -99,4 +99,8 @@ class item: UIViewController, UICollectionViewDelegate, UICollectionViewDataSour
     @IBAction func tapOnMainViewAction(_ sender: Any) {
         self.realView.isHidden = true
     }
+    @IBAction func searchButton(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(withIdentifier: "destinations") as! destinations
+        navigationController?.pushViewController(navigate, animated: true)
+    }
 }

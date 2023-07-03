@@ -37,6 +37,8 @@ class destinations: UIViewController,UICollectionViewDelegate,UICollectionViewDe
         
     }
     @IBAction func back(_ sender: Any) {
+        let back = storyboard?.instantiateViewController(withIdentifier: "item") as! item
+        navigationController?.popToRootViewController(animated: true)
     }
     
 

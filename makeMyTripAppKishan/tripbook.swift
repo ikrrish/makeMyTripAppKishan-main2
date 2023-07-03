@@ -18,6 +18,10 @@ class tripbook: UIViewController {
         let navigate = storyboard?.instantiateViewController(withIdentifier: "payment") as! payment
         navigationController?.pushViewController(navigate, animated: true)
     }
+    @IBAction func back(_ sender: Any) {
+        let back = storyboard?.instantiateViewController(withIdentifier: "item") as! item
+        navigationController?.popToRootViewController(animated: true)
+    }
     
 
    

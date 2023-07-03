@@ -1350,6 +1350,7 @@
                                 <connections>
                                     <action selector="back:" destination="yp3-u9-vgB" eventType="touchUpInside" id="Tzs-eW-SDE"/>
                                     <action selector="back:" destination="uOn-vK-PAu" eventType="touchUpInside" id="krf-Md-IEg"/>
+                                    <action selector="backButtonAction:" destination="ssD-gY-uzO" eventType="touchUpInside" id="eZ0-qJ-S9m"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Due: ₹ 4,026" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYi-9k-RZe">
@@ -1773,6 +1774,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                     </preferredSymbolConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="searchButton:" destination="WqM-k2-FFx" eventType="touchUpInside" id="BOa-S3-dUG"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2312678" translatesAutoresizingMaskIntoConstraints="NO" id="bgu-ye-W1g">
                                 <rect key="frame" x="13" y="158" width="389" height="103"/>
@@ -1858,7 +1862,7 @@
                                 <rect key="frame" x="38" y="391" width="51" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="gift-card"/>
+                                <buttonConfiguration key="configuration" style="plain" image="555"/>
                                 <connections>
                                     <action selector="allButtonAction:" destination="WqM-k2-FFx" eventType="touchUpInside" id="Pce-6B-0YF"/>
                                 </connections>
@@ -2104,7 +2108,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="5653.6231884057979" y="-2878.125"/>
+            <point key="canvasLocation" x="5717.3913043478269" y="-2876.1160714285711"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NOK-HY-6BB">
@@ -2123,11 +2127,11 @@
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
         </scene>
-        <!--Item 1-->
+        <!--Home-->
         <scene sceneID="keh-XH-la9">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="1WZ-dg-BpT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="bHd-61-Jsv"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" selectedImage="home" id="bHd-61-Jsv"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pE0-Li-AuB">
                         <autoresizingMask key="autoresizingMask"/>
@@ -2141,11 +2145,11 @@
             </objects>
             <point key="canvasLocation" x="4658" y="-2878"/>
         </scene>
-        <!--Item 2-->
+        <!--Trip Money-->
         <scene sceneID="S0T-3r-uT5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="eUp-5y-hdC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="5hz-4i-kF7"/>
+                    <tabBarItem key="tabBarItem" title="Trip Money" image="money" selectedImage="money" id="5hz-4i-kF7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QkQ-Xe-snX">
                         <autoresizingMask key="autoresizingMask"/>
@@ -2159,11 +2163,11 @@
             </objects>
             <point key="canvasLocation" x="4658" y="-2221"/>
         </scene>
-        <!--Item-->
+        <!--Be Host-->
         <scene sceneID="vMo-yb-gyf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="jv2-2f-MOU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="mcj-Nw-ML5"/>
+                    <tabBarItem key="tabBarItem" title="Be Host" image="ownership" selectedImage="ownership" id="mcj-Nw-ML5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3w4-WW-nku">
                         <autoresizingMask key="autoresizingMask"/>
@@ -2177,11 +2181,11 @@
             </objects>
             <point key="canvasLocation" x="4658" y="-1471"/>
         </scene>
-        <!--Item-->
+        <!--Where To Go-->
         <scene sceneID="stP-Lc-qtv">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="da9-36-ycK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="OA2-F3-DMG"/>
+                    <tabBarItem key="tabBarItem" title="Where To Go" image="pin" selectedImage="pin" id="OA2-F3-DMG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4u5-Jq-Rvg">
                         <autoresizingMask key="autoresizingMask"/>
@@ -2452,7 +2456,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDq-dR-SMa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6302" y="-2878"/>
+            <point key="canvasLocation" x="6444" y="-2876"/>
         </scene>
         <!--Tripbook-->
         <scene sceneID="vCQ-wr-JYS">
@@ -2478,6 +2482,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="back:" destination="yp3-u9-vgB" eventType="touchUpInside" id="Gg0-kR-B6b"/>
+                                    <action selector="back:" destination="Phd-Kg-dcP" eventType="touchUpInside" id="ksM-VE-IHz"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Trips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHc-Sf-qqA">
@@ -2718,6 +2723,7 @@
     <resources>
         <image name="2312678" width="1080" height="1920"/>
         <image name="47d60e354a4396ac1dcb48fbc5bdf47b" width="564" height="1002"/>
+        <image name="555" width="32" height="32"/>
         <image name="94d95b5a58596e7f2668df15ddc2ce27" width="450" height="900"/>
         <image name="Black_Wallpaper" width="3840" height="2160"/>
         <image name="Demystify-your-marketing-strategy-the-Make-My-Trip-way-1" width="1200" height="628"/>
@@ -2739,10 +2745,10 @@
         <image name="forex" width="32" height="32"/>
         <image name="friends" width="32" height="32"/>
         <image name="gift-box (1)" width="24" height="24"/>
-        <image name="gift-card" width="32" height="32"/>
         <image name="gift-card (2)" width="24" height="24"/>
         <image name="google" width="24" height="24"/>
         <image name="heart" width="24" height="24"/>
+        <image name="home" width="32" height="32"/>
         <image name="hotel" width="32" height="32"/>
         <image name="images (5)" width="329" height="153"/>
         <image name="images (6)" width="259" height="194"/>
@@ -2753,13 +2759,16 @@
         <image name="istockphoto-1325195247-170667a" width="544" height="317"/>
         <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="money" width="32" height="32"/>
         <image name="notification" width="32" height="32"/>
         <image name="number-2" width="32" height="32"/>
         <image name="number-3" width="32" height="32"/>
         <image name="number-one" width="32" height="32"/>
+        <image name="ownership" width="32" height="32"/>
         <image name="park" width="32" height="32"/>
         <image name="pay" width="32" height="32"/>
         <image name="photo-1465146344425-f00d5f5c8f07" width="500" height="331"/>
+        <image name="pin" width="32" height="32"/>
         <image name="portfolio" width="24" height="24"/>
         <image name="profile-icon-design-free-vector" width="1920" height="1920"/>
         <image name="public-transport" width="32" height="32"/>

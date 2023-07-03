@@ -30,4 +30,8 @@ class payment: UIViewController, UICollectionViewDelegate & UICollectionViewData
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 374, height: 73)
     }
+    @IBAction func backButtonAction(_ sender: Any) {
+        let back = storyboard?.instantiateViewController(withIdentifier: "tripbook") as! tripbook
+        navigationController?.popToRootViewController(animated: true)
+    }
 }
